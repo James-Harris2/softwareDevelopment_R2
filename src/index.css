@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #e0e0e0; /* Light gray for text */
+  --secondary-color: #2c2c2c; /* Dark gray for background */
+  --accent-color: #444444; /* Medium gray for accents */
+  --button-color: #b71c1c; /* Dark red for buttons */
+  --button-hover-color: #7f0000; /* Darker red for button hover */
+  --shadow-color: rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+}
+
+body{
+  background-color: var(--accent-color);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  padding: .5%;
+}
+
+.app{
+  position: relative;
+}
